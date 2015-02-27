@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441432CB19C82EBE007A147B /* ramya.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 441432CA19C82EBE007A147B /* ramya.JPG */; };
+		4414331419CA9A6C007A147B /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414330C19CA9A6C007A147B /* 0.jpeg */; };
+		4414331519CA9A6C007A147B /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414330D19CA9A6C007A147B /* 1.jpeg */; };
+		4414331619CA9A6C007A147B /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414330E19CA9A6C007A147B /* 2.jpeg */; };
+		4414331719CA9A6C007A147B /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414330F19CA9A6C007A147B /* 3.jpeg */; };
+		4414331819CA9A6C007A147B /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414331019CA9A6C007A147B /* 4.jpeg */; };
+		4414331919CA9A6C007A147B /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414331119CA9A6C007A147B /* 5.jpeg */; };
+		4414331A19CA9A6C007A147B /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414331219CA9A6C007A147B /* 6.jpeg */; };
+		4414331B19CA9A6C007A147B /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4414331319CA9A6C007A147B /* 7.jpeg */; };
 		44E0484A19BD322700A322A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E0484919BD322700A322A4 /* Foundation.framework */; };
 		44E0484C19BD322700A322A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E0484B19BD322700A322A4 /* CoreGraphics.framework */; };
 		44E0484E19BD322700A322A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E0484D19BD322700A322A4 /* UIKit.framework */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441432CA19C82EBE007A147B /* ramya.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ramya.JPG; path = ../../../Downloads/ramya.JPG; sourceTree = "<group>"; };
+		4414330C19CA9A6C007A147B /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		4414330D19CA9A6C007A147B /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		4414330E19CA9A6C007A147B /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		4414330F19CA9A6C007A147B /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		4414331019CA9A6C007A147B /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		4414331119CA9A6C007A147B /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		4414331219CA9A6C007A147B /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		4414331319CA9A6C007A147B /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
 		44E0484619BD322700A322A4 /* HW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E0484919BD322700A322A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44E0484B19BD322700A322A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,9 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4414327D19C6D7E0007A147B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4414330C19CA9A6C007A147B /* 0.jpeg */,
+				4414330D19CA9A6C007A147B /* 1.jpeg */,
+				4414330E19CA9A6C007A147B /* 2.jpeg */,
+				4414330F19CA9A6C007A147B /* 3.jpeg */,
+				4414331019CA9A6C007A147B /* 4.jpeg */,
+				4414331119CA9A6C007A147B /* 5.jpeg */,
+				4414331219CA9A6C007A147B /* 6.jpeg */,
+				4414331319CA9A6C007A147B /* 7.jpeg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		441432D419CA8DBB007A147B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		44E0483D19BD322700A322A4 = {
 			isa = PBXGroup;
 			children = (
+				4414327D19C6D7E0007A147B /* Resources */,
 				44E0484F19BD322700A322A4 /* HW1 */,
 				44E0487119BD322700A322A4 /* HW1Tests */,
 				44E0484819BD322700A322A4 /* Frameworks */,
@@ -114,7 +155,9 @@
 		44E0484F19BD322700A322A4 /* HW1 */ = {
 			isa = PBXGroup;
 			children = (
+				441432D419CA8DBB007A147B /* iPad */,
 				44E0485819BD322700A322A4 /* BRSAppDelegate.h */,
+				441432CA19C82EBE007A147B /* ramya.JPG */,
 				44E0485919BD322700A322A4 /* BRSAppDelegate.m */,
 				44E0485B19BD322700A322A4 /* Main_iPhone.storyboard */,
 				44E0485E19BD322700A322A4 /* Main_iPad.storyboard */,
@@ -232,8 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4414331B19CA9A6C007A147B /* 7.jpeg in Resources */,
+				4414331A19CA9A6C007A147B /* 6.jpeg in Resources */,
+				4414331819CA9A6C007A147B /* 4.jpeg in Resources */,
+				4414331519CA9A6C007A147B /* 1.jpeg in Resources */,
+				4414331419CA9A6C007A147B /* 0.jpeg in Resources */,
 				44E0486019BD322700A322A4 /* Main_iPad.storyboard in Resources */,
+				4414331719CA9A6C007A147B /* 3.jpeg in Resources */,
 				44E0486519BD322700A322A4 /* Images.xcassets in Resources */,
+				4414331619CA9A6C007A147B /* 2.jpeg in Resources */,
+				4414331919CA9A6C007A147B /* 5.jpeg in Resources */,
+				441432CB19C82EBE007A147B /* ramya.JPG in Resources */,
 				44E0485D19BD322700A322A4 /* Main_iPhone.storyboard in Resources */,
 				44E0485419BD322700A322A4 /* InfoPlist.strings in Resources */,
 			);
@@ -394,7 +446,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HW1/HW1-Prefix.pch";
 				INFOPLIST_FILE = "HW1/HW1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,7 +461,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HW1/HW1-Prefix.pch";
 				INFOPLIST_FILE = "HW1/HW1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +527,7 @@
 				44E0487D19BD322700A322A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44E0487E19BD322700A322A4 /* Build configuration list for PBXNativeTarget "HW1Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +536,7 @@
 				44E0488019BD322700A322A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

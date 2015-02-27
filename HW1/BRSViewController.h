@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+extern NSInteger globalStateVariable;
 
 @interface BRSViewController : UIViewController
 
